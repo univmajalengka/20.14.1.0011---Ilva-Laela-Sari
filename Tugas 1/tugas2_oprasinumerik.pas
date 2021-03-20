@@ -1,0 +1,21 @@
+program operasi_numerik;
+uses crt;
+var i,j : integer;
+begin;
+clrscr;
+writeln('operasi numerik pada tipe data integer');
+writeln(' ');
+write('Masukan Nilai I :');  readln(i);
+write('Masukan Nilai J :');  readln(j);
+writeln(' ');
+writeln('--------------------------');
+writeln(': operasi : hasil opersi :');
+writeln('--------------------------');
+writeln(': ',i,' + ',j,'   : ',(i+j):6,'       :');
+writeln(': ',i,' - ',j,'   : ',(i-j):6,'       :');
+writeln(': ',i,' * ',j,'   : ',(i*j):6,'       :');
+writeln(': ',i,' div ',j,' : ',(i div j):6,'       :');
+writeln(': ',i,' mod ',j,' : ',(i mod j):6,'       :');
+writeln('--------------------------');
+readln;
+end.
